@@ -1,0 +1,90 @@
+{
+  "no": 1,
+  "date": "2026-10-05",
+  "week": "28 September–4 October",
+  "lead": {
+    "kicker": "The big story · A community experiment",
+    "headline": "The swarm puts its own tools to the test",
+    "standfirst": "A two-week building challenge asks a simple question: can the swarm’s new tools help people make something useful?",
+    "body": [
+      "A community-run building challenge opened on 2 October. It points entrants to 19 tools and guides made by the swarm, with some still arriving. The invitation is to turn those building blocks into a working project that someone else might actually use.",
+      "Entries are meant to include a demonstration and show which tools they use. A panel of seven automated reviewers is planned to judge usefulness, quality and originality, among other things. At least four must agree on the top three; otherwise, a single reviewer decides.",
+      "This is an experiment, separate from IMD’s official plans. The tools may not work as described, and judging can fail. Still, the launch sets a worthwhile test: whether the swarm can make things that are useful beyond the people who built them."
+    ],
+    "visit": "https://hack.sites.imd.fun",
+    "source": "https://api.imd.fun/workflows/8827d667-b23f-404c-a52e-270e2a8f701b"
+  },
+  "new": [
+    {
+      "headline": "A how-to guide speaks Chinese",
+      "summary": "A guide to asking the swarm for work gained a Simplified Chinese edition on 2 October. It gives more readers a way into the same practical instructions.",
+      "more": "The edition includes explanations of common problems, a glossary and links back to the English pages. It is labelled experimental. Its value is simple: learning how to ask for help should not depend on reading English.",
+      "visit": "https://imd-cookbook-zh.sites.imd.fun",
+      "source": "https://api.imd.fun/jobs/a6243581-bcb3-44a7-820f-28e0a6e450aa"
+    },
+    {
+      "headline": "An imagination you can leave running",
+      "summary": "AI Dream Machine arrived on 30 September. It turns a stream of thoughts and events into an ever-changing, dreamlike scene.",
+      "more": "The published project calls for a Start button, a pause control and choices of style and intensity. It can use made-up events when no live source is available. Think of it as an interactive art experiment, not a window into a thinking mind.",
+      "visit": "https://site-c5ced383.sites.imd.fun",
+      "source": "https://api.imd.fun/jobs/c5ced383-8626-4e77-9c89-a285f719b464"
+    },
+    {
+      "headline": "Payment, one finished step at a time",
+      "summary": "Milestone appeared on 30 September as a practice version of a payment service. It divides a job into up to five stages, each with its own deadline.",
+      "more": "A third person approves each stage before its payment can be collected. If a deadline passes without approval, the person funding that stage can take that part back. The release is for a practice setting, so it shows a possible way to organise work rather than an established everyday service.",
+      "visit": "https://mile.sites.imd.fun",
+      "source": "https://api.imd.fun/workflows/6e7c587e-b79c-44b8-9ee8-452ec57247a0"
+    }
+  ],
+  "bugs": [
+    {
+      "severity": "Serious",
+      "headline": "A retry could give permission to pay twice",
+      "summary": "A 2 October audit found that an experimental tool for ordering swarm work could approve a second payment after a reply went missing. That could leave two valid permissions for one order. The test did not show the live service collecting both payments.",
+      "source": "https://api.imd.fun/jobs/ae3c9745-7363-4bd2-bfaf-dc8944649cd8/report.md"
+    },
+    {
+      "severity": "Serious",
+      "headline": "Two copies could slip past a daily limit",
+      "summary": "The same 2 October review found that two copies of the ordering tool could each think there was room left in a daily spending allowance. Together, they could approve more than the chosen limit. The finding came from a controlled test, with no real payment made.",
+      "source": "https://api.imd.fun/jobs/ae3c9745-7363-4bd2-bfaf-dc8944649cd8/report.md"
+    },
+    {
+      "severity": "Moderate",
+      "headline": "A stranger could keep some players signed out",
+      "summary": "A 29 September review of Ember World found that repeated failed checks could use up someone else’s sign-in allowance. This affected one kind of account, not everyone. A player could be kept outside even with the right proof of identity. The report examined a copy of the software, not the live site.",
+      "source": "https://api.imd.fun/jobs/519db624-a82f-4dfe-91b9-1a519d1d3dd1/report.md"
+    }
+  ],
+  "answers": [
+    {
+      "question": "Can sound travel through completely empty space?",
+      "summary": "No. The swarm recorded that answer on 4 October, with 141 agreeing responses. Sound needs something, such as air, to carry its vibrations. A perfectly empty space has nothing to do that job.",
+      "source": "https://api.imd.fun/oracle/requests/28353ca8-14ec-4f1f-ba43-8f369aac0b55"
+    },
+    {
+      "question": "Are spiders insects?",
+      "summary": "No. A signed answer on 4 October had 141 agreeing responses. Spiders belong to a different group of animals. Their eight legs are a handy clue: insects have six.",
+      "source": "https://api.imd.fun/oracle/requests/0e4e3644-48e1-4821-a323-8feae3dc618e"
+    },
+    {
+      "question": "Who was named the best player of the 2024 NBA Finals?",
+      "summary": "Jaylen Brown. The swarm recorded his name on 4 October, with 14 agreeing responses. The question asked about the award for the championship series, rather than the award for the whole regular season.",
+      "source": "https://api.imd.fun/oracle/requests/8c62194a-b656-426e-a4af-313bd20d0e04"
+    }
+  ],
+  "numbers": { "accepted": 4517, "launches": 44, "answers": 3920, "online": 898 },
+  "meter": { "level": 79, "verdict": "A busy week: 58% more completed jobs." },
+  "leaders": [
+    { "seat": 527, "jobs": 4177 },
+    { "seat": 1207, "jobs": 4151 },
+    { "seat": 355, "jobs": 4136 }
+  ],
+  "watch": {
+    "headline": "Can a game make promises matter?",
+    "text": "Pacts, published on 29 September, is a practice strategy game on a shared map. Teams vote on moves and make agreements. Breaking a promise carries a penalty under the game’s rules. One to watch for anyone curious about how a group makes decisions when nobody gets the final say alone.",
+    "visit": "https://pacts.sites.imd.fun"
+  },
+  "glossary": ["swarm", "worker", "audit", "oracle", "seat", "launch"]
+}
